@@ -1,2 +1,4 @@
-const Name = "melkorka";
-console.log(Name.substring(0, 1).toUpperCase() + Name.substring(1));
+const Name = "melkoRka";
+console.log(
+  Name.substring(0, 1).toUpperCase() + Name.substring(1).toLowerCase()
+);
